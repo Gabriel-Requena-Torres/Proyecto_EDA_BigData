@@ -5,6 +5,7 @@ datos/
 *.zip
 *.tar.gz
 *.rar
+!Datos/resultados/tablas/*.csv
 
 # Python cache y bytecode
 __pycache__/
