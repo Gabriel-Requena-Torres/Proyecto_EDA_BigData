@@ -1,0 +1,17 @@
+# Ignorar la carpeta de datasets completa (y cualquier subcarpeta como archive/)
+Datos/
+datos/
+*.csv
+*.zip
+*.tar.gz
+*.rar
+
+# Python cache y bytecode
+__pycache__/
+*.py[cod]
+
+# Posibles entornos virtuales 
+.venv/
+venv/
+env/
+ENV/
