@@ -1,17 +1,17 @@
-# Ignorar la carpeta de datasets completa (y cualquier subcarpeta como archive/)
-Datos/
-datos/
-*.csv
+# Ignorar unicamente los datasets pesados de Kaggle dentro de archive
+Datos/archive/
+datos/archive/
+
+# Ignorar cualquier archivo comprimido
 *.zip
 *.tar.gz
 *.rar
-!Datos/resultados/tablas/*.csv
 
 # Python cache y bytecode
 __pycache__/
 *.py[cod]
 
-# Posibles entornos virtuales 
+# Entornos virtuales
 .venv/
 venv/
 env/

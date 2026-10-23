@@ -1,0 +1,3 @@
+paso,filas_resultantes,filas_excluidas
+Eliminacion de duplicados exactos,144350,0
+Filtro representatividad (total_reviews >= 1000),7222,137128
